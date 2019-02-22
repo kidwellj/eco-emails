@@ -37,3 +37,7 @@ ccf <- tm_map(ccf, PlainTextDocument)
 # wordcloud(ccf, scale=c(5,0.5), max.words=100, random.order=FALSE, rot.per=0.35, use.r.layout=FALSE, colors=brewer.pal(8, "Dark2"))
 # wordcloud(ccf, scale=c(8,.2), min.freq=2, max.words=Inf, random.order=FALSE, rot.per=.15, colors=brewer.pal(8, "Dark2"))
 wordcloud(ccf, scale=c(5,.3), max.words=250, random.order=FALSE, rot.per=0.35, use.r.layout=FALSE, colors=brewer.pal(8, "Dark3"))
+
+# Extract URLs
+
+https://stackoverflow.com/questions/26496538/extract-urls-with-regex-into-a-new-data-frame-column#26498790
